@@ -1,0 +1,487 @@
+/* Background Header Up */
+.header-up {
+	background-color: #a4c63b;
+}
+/* Start Header-Up Left */
+.header-up .head-left div:first-child {
+	border-right: 1px solid rgba(255, 255, 255, .6);
+	border-left: 1px solid rgba(255, 255, 255, .6);
+}
+.header-up .head-left div:last-child {
+	border-right: 1px solid rgba(255, 255, 255, .6);
+}
+/* Start Header-Up right  */
+.header-up .head-right div {
+	border-right: 1px solid rgba(255, 255, 255, .6);
+}
+.header-up .head-right div:first-child {
+	border-left: 1px solid rgba(255, 255, 255, .6);
+}
+/* Size Icons In Header Up */
+.header-up .head-right i,
+.header-up .head-left i {
+	font-size: 14px;
+}
+/* End Header-Up right  */
+
+/* Start Nav Header */
+.nav-header {
+	min-height: 100vh;
+	background-image: url(../../images/1.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+.nav-header::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	z-index: -1;
+}
+
+nav.navbar {
+	background: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.navbar-dark .navbar-brand {
+	font-size: 22px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	transition: all .5s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: rgba(255, 255, 255, .6) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+	color: #a4c63b;
+	border-bottom: 2px solid #a4c63b;
+}
+.nav-header .information {
+	top: 230px;
+}
+.nav-header .information h4 {
+	color: #a4c63b;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.nav-header .information h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.nav-header .information p {
+	color: #fff;
+	width: 82%;
+}
+
+.nav-header .information button {
+	border-radius: 75px;
+	border: none;
+	background-color: #a4c63b;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	transition: all .5s ease;
+	outline: none;
+}
+.nav-header .information button:hover {
+	background-color: rgb(197, 241, 65);
+}
+
+.request-call {
+	background-color: #a4c63b;
+	color: #fff;
+}
+.request-call .contact-us {
+	margin: auto;
+	text-align: right;
+}
+.request-call .contact-us button {
+	border: 2px solid #fff;
+	background-color: #a4c63b;
+	border-radius: 75px;
+	transition: all .5s ease;
+	outline: none;
+}
+.request-call .contact-us button:hover {
+	background-color: rgb(197, 241, 65);
+}
+
+/*  Start Financial Services */
+
+.financial-service {
+	width: 100%;
+	min-height: 100vh;
+}
+.financial-service h2 span {
+	color: #a4c63b;
+}
+.financial-service > p {
+	font-weight: 500;
+	color: #999;
+	font-size: 14px;
+}
+
+/* Start Card */
+
+.financial-service .card {
+	border: none;
+}
+
+.financial-service .card .card-info {
+	background-color: #f7f7f7;
+}
+.financial-service .card .card-info p {
+	color: #757574;
+	font-weight: 500;
+}
+
+.financial-service .card .card-info button {
+	border: 2px solid #fff;
+	background-color: #a4c63b;
+	border-radius: 75px;
+	font-size: 12px;
+	transition: all .5s ease;
+	outline: none;
+}
+.financial-service .card .card-info button:hover {
+	background-color: rgb(197, 241, 65);
+}
+/* End Card */
+
+/*  End Financial Services */
+
+/* Start Solutions Bussiness */
+
+.solution-bussiness {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(../../images/2.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.solution-bussiness::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	opacity: .9;
+}
+
+.solution-bussiness .solution-right h6 {
+	font-weight: 500;
+}
+.solution-bussiness .solution-right h1 span {
+	color: #a4c63b;
+}
+
+.solution-bussiness .solution-right p {
+	line-height: 1.8;
+}
+
+.solution-bussiness .solution-right button {
+	background-color: #a4c63b;
+	border-radius: 75px;
+	border: none;
+	color: #fff;
+	font-size: 12px;
+	transition: all .5s ease;
+	outline: none;
+}
+
+.solution-bussiness .solution-right button:hover {
+	background-color: rgb(197, 241, 65);
+}
+
+.solution-bussiness .solution-left .row div {
+	background-color: #484848;
+	color: #fff;
+	text-align: center;
+}
+.solution-bussiness .solution-left .row div p {
+	font-size: 36px;
+	color: #a4c63b;
+	font-weight: bold;
+	margin: 0;
+}
+/* End Solutions Bussiness */
+
+/* Start About Company */
+.know-about-company {
+	width: 100%;
+	min-height: 100vh;
+}
+.know-about-company .about-company {
+	min-height: 70vh;
+	background-color: #f7f7f7;
+}
+
+.know-about-company .about-company > .col-md-6 {
+	padding-left: 0;
+}
+
+.know-about-company .about-company div h1 span {
+	color: #a4c63b;
+}
+.know-about-company .about-company div p {
+	font-size: 14px;
+	color: #757574;
+	font-weight: 500;
+}
+
+.know-about-company .about-company div button {
+	border: none;
+	border-radius: 75px;
+	background-color: #a4c63b;
+	font-size: 12px;
+	transition: all .5s ease;
+	outline: none;
+}
+
+.know-about-company .about-company div button:hover {
+	background-color: rgb(197, 241, 65);
+}
+
+.know-about-company .about-company div h6 {
+	color: #999;
+}
+/* End About Company  */
+
+/*  Start What They Say About Us  */
+
+.say-about-us {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #f7f7f7;
+}
+
+.say-about-us .fauxels {
+	background-color: #fff;
+}
+.say-about-us .fauxels h5 {
+	color: #a4c63b;
+	font-weight: 600;
+}
+.say-about-us .fauxels p {
+	color: #757574;
+	line-height: 1.8;
+}
+.say-about-us .container {
+	max-width: 1344px;
+}
+.say-about-us .container .d-flex {
+	justify-content: space-evenly;
+}
+.say-about-us .fauxels img {
+	width: 60px;
+	height: 60px;
+}
+
+/*  End What They Say About Us  */
+
+/* Start call back */
+
+.call-back {
+	width: 100%;
+	min-height: 100vh;
+}
+
+.call-back h1 span {
+	color: #a4c63b;
+}
+.call-back p {
+	font-weight: 500;
+	color: #757574;
+}
+/* Start Form */
+.call-back form {
+	width: 100%;
+	background-color: #a4c63b;
+}
+
+.call-back form input {
+	border-radius: 75px;
+	border: none;
+	outline: none;
+}
+.call-back form textarea {
+	border-radius: 25px;
+}
+
+.call-back form input[type="submit"] {
+	background-color: #a4c63b;
+	border: 2px solid #fff;
+	font-size: 14px;
+	transition: all .5s ease;
+	outline: none;
+}
+.call-back form input[type="submit"]:hover {
+	background-color: rgb(197, 241, 65);
+}
+
+/* Start Footer */
+
+.footer {
+	width: 100%;
+	min-height: 80vh;
+	background-color: #232323;
+}
+.footer h4 {
+	color: #a4c63b;
+}
+
+.footer .icons {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.footer .icons div {
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 50%;
+	color: #000;
+	background-color: #fff;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+.footer .finance-business .icons div:hover {
+	background-color: #484848;
+	color: #fff;
+	border: 3px solid #999;
+}
+
+.footer .finance-business p {
+	line-height: 2.2;
+}
+
+.footer .user-links p {
+	cursor: pointer;
+	transition: all .5s ease;
+}
+.footer .user-links p:hover {
+	color: rgba(255, 255, 255, .4);
+}
+.footer .additional-pages p {
+	cursor: pointer;
+	transition: all .5s ease;
+}
+.footer .additional-pages p:hover {
+	color: rgba(255, 255, 255, .4);
+}
+
+.footer .contact-us form input {
+	background-color: #343434;
+	border: none;
+	border-radius: 75px;
+}
+
+.footer .contact-us form textarea {
+	background-color: #343434;
+	border: none;
+	border-radius: 25px;
+}
+.footer .contact-us form input[type="submit"] {
+	background-color: #a4c63b;
+	font-size: 14px;
+	transition: all .5s ease;
+	outline: none;
+}
+.footer .contact-us form input[type="submit"]:hover {
+	background-color: rgb(197, 241, 65);
+}
+
+/* Start Copy Right */
+
+.copy-right {
+	background-color: #343434;
+}
+
+/* End Copy Right */
+
+/* Start Media Query */
+
+@media (max-width: 768px) {
+	body {
+		overflow-x: hidden;
+	}
+	.header-up .head-left div {
+		display: none;
+	}
+	.header-up .head-right div {
+		display: none;
+	}
+	.nav-header .information h4 {
+		font-size: 20px;
+	}
+	.nav-header .information h1 {
+		font-size: 26px;
+	}
+	.nav-header .information p {
+		font-size: 15px;
+	}
+	.nav-header .information {
+		top: 260px;
+	}
+	.request-call h4 {
+		font-size: 20px;
+	}
+	.about-company .row div:last-child {
+		padding: 30px;
+	}
+	.information button {
+		margin-top: 0 !important;
+	}
+}
+
+@media (max-width: 991px) {
+	.navbar-dark .navbar-toggler {
+		outline: none;
+	}
+	.navbar-collapse {
+		background: rgba(164, 198, 59, .8);
+		padding: 10px 15px;
+	}
+	.navbar-dark .navbar-nav .nav-link:hover {
+		color: rgba(255, 255, 255, .4) !important;
+	}
+	.solution-bussiness h1 {
+		font-size: 2rem;
+	}
+	.solution-bussiness .solution-right p {
+		font-size: .9rem;
+	}
+	.footer .icons {
+		justify-content: center;
+		align-items: center;
+	}
+	.finance-business {
+		text-align: center;
+	}
+	.user-links {
+		text-align: center;
+	}
+	.additional-pages {
+		text-align: center;
+	}
+	.contact-us {
+		text-align: center;
+	}
+}
